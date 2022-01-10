@@ -1,5 +1,6 @@
-// when used data() instead of json() it gave reference error saying data is not a function
-// curly braces inside first then did'nt passed the value to next then it show undefined in console
+// Dom elements
+
+
 let countdown = document.getElementById("timer");
 let question_display = document.getElementById("question_display");
 let optionA_display = document.getElementById("optionA_display");
@@ -18,16 +19,15 @@ let lose1 = false;
 let lose2 = false;
 let win = false;
 
+// For restarting the game
 
 function res_func(){
     location.reload();
 }
 
-
-
 restart.addEventListener("click" , res_func);
 
-
+// starting the game function
 
 function start_game() {
     screen.classList.add("show");
@@ -45,6 +45,8 @@ function start_game() {
         }
     }, 1000);
 }
+
+//Ending the Game function
 
 function endgame(lose_1, lose_2, win_1) {
     if (lose_1 == true && (lose_2 && win_1) == false) {
@@ -64,7 +66,12 @@ function endgame(lose_1, lose_2, win_1) {
     }
 }
 
+//adding event listener to start button and calling the start game function
+
 start_btn.addEventListener("click", start_game)
+
+
+// fetching questions.json  
 
 fetch("questions.json")
     .then(response => {
@@ -72,25 +79,21 @@ fetch("questions.json")
     }
     )
     .then(data => {
-        print_ques(data, index);
+        print_ques(data, index); //  calling the print_ques function and passing the fetched data and initial index to the print_ques function
     });
-
-
-
-
 
 function print_ques(files, i) {
     question_display.innerText = files[i].question;
     optionA_display.innerText = files[i].options.option1;
-    optionB_display.innerText = files[i].options.option2;
+    optionB_display.innerText = files[i].options.option2;  // updating innertext of the buttons and question span tag and showing it on the browser screen 
     optionC_display.innerText = files[i].options.option3;
     optionD_display.innerText = files[i].options.option4;
     for (items of all_options) {
-        items.addEventListener("click", (e) => {
-            option_txt = e.target.innerText;
+        items.addEventListener("click", (e) => {            // adding event listener click to all the options button
+            option_txt = e.target.innerText;                      
             if (option_txt == files[i].correctoption && i < 9) {
                 console.log(option_txt);
-                print_ques(files, i + 1);
+                print_ques(files, i + 1);                       
                 time = 20;
             }
             else if (i == 9 && option_txt == files[i].correctoption) {
@@ -98,7 +101,7 @@ function print_ques(files, i) {
                 lose1 = false;
                 lose2 = false;
                 win = true;
-                endgame(lose1 , lose2 , win)
+                endgame(lose1 , lose2 , win)          // calling endgame function and passing appropriate arguments
             }
             else{
                 lose1 = false;
