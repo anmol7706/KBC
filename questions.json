@@ -1,0 +1,101 @@
+[{
+    "question" : "Road Transport Ministry signed MoU with which institution for Research and Development" ,
+    "options" :{
+    "option1" : "IIT Roorkee" ,
+    "option2" : "NIT Warangal",
+    "option3" : "Central Institute of Road Transport",
+    "option4" : "IIT Chennai"
+    },
+    "correctoption" : "IIT Roorkee"
+},
+{
+    "question" : "The government of which state has decided to establish Indias biggest multi-model logistics park?" ,
+    "options" :{
+    "option1" : "Maharashtra" ,
+    "option2" : "Tamil Nadu",
+    "option3" : "West Bengal",
+    "option4" : "Gujrat"
+    },
+    "correctoption" : "Gujrat"
+},
+{
+    "question" : "The <Union Budget> Mobile application has been developed by which institution?" ,
+    "options" :{
+    "option1" : "National Informatics Centre" ,
+    "option2" : "Indian Computer Emergency Response Team",
+    "option3" : "Department of Telecommunications",
+    "option4" : "National Technical Research Organisation"
+    },
+    "correctoption" : "National Informatics Centre"
+},
+{
+    "question" : "Vaccination against which disease was conducted recently as a National Vaccination Day?" ,
+    "options" :{
+    "option1" : "Hepatitis" ,
+    "option2" : "Polio",
+    "option3" : "Pneumonia",
+    "option4" : "BCG"
+    },
+    "correctoption" : "Polio"
+},
+{
+    "question" : "Who chairs the NITI Aayog’s Governing Council meeting?" ,
+    "options" :{
+    "option1" : "Finance Minister" ,
+    "option2" : "Prime Minister",
+    "option3" : "NITI Aayog CEO",
+    "option4" : "Home Minister"
+    },
+    "correctoption" : "Prime Minister"
+},
+{
+    "question" : "Which Indian company has signed an agreement with Norway’s Greenstat for setting up a Centre of excellence on hydrogen?",
+    "options" :{
+    "option1" : "Hindustan Petroleum" ,
+    "option2" : "Indian Oil",
+    "option3" : "NTPC",
+    "option4" : "GAIL"
+    },
+    "correctoption" : "Indian Oil"
+},
+{
+    "question" : "Where is the Indian Institute of Sugarcane Research (llSR) located?",
+    "options" :{
+    "option1" : "Varanasi" ,
+    "option2" : "Lucknow",
+    "option3" : "Chandigarh",
+    "option4" : "Gurgaon"
+    },
+    "correctoption" : "Lucknow"
+},
+{
+    "question" : "Who is the head of the experts advisory committee set up for the Startup India Seed Fund Scheme?",
+    "options" :{
+    "option1" : "Injeti Srinivas" ,
+    "option2" : "Gita Gopinath",
+    "option3" : "H K Mittal",
+    "option4" : "S C Khuntia"
+    },
+    "correctoption" : "H K Mittal"
+},
+{
+    "question" : "Which Union Ministry has chalked out a four-point strategy to handle the blockage at Suez Canal?",
+    "options" :{
+    "option1" : "Ministry of Petroleum" ,
+    "option2" : "Ministry of Commerce and Industry",
+    "option3" : "Ministry of Heavy Industries",
+    "option4" : "Ministry of External Affairs"
+    },
+    "correctoption" : "Ministry of Commerce and Industry"
+},
+{
+    "question" : "<SARTHAQ>, which was seen in the news recently, is an implementation plan related to which policy?" ,
+    "options" :{
+    "option1" : "Environment Impact Assessment" ,
+    "option2" : "Public Sector Enterprises Policy",
+    "option3" : "New Education Policy",
+    "option4" : "Agriculture Laws"
+    },
+    "correctoption" : "New Education Policy"
+}
+]
