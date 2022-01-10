@@ -1,0 +1,19 @@
+.main{
+    display: none;
+}
+
+.main.show{
+    display: block;
+}
+
+#submit_btn{
+    display: none
+}
+
+.restart{
+    display: none;
+}
+
+.restart.show{
+    display: flex;
+}

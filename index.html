@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div id="timercontainer" class="timercontainer">
-        <span class="timer" id="timer"></span>
-    </div>
-    <div class="questioncontainer" id="questioncontainer">
-        <span class="question" id="question_display"></span>
-    </div>
-    <div class="optioncontainer" id="optioncontainer">
+    <div class="main" id="main">
+        <div id="timercontainer" class="timercontainer">
+            <span class="timer" id="timer"></span>
+        </div>
+        <div class="questioncontainer" id="questioncontainer">
+            <span class="question" id="question_display"></span>
+        </div>
+        <div class="optioncontainer" id="optioncontainer">
             <button class="options" id="optionA_display" data-options></button>
             <button class="options" id="optionB_display" data-options></button>
             <button class="options" id="optionC_display" data-options></button>
             <button class="options" id="optionD_display" data-options></button>
-            <button id="xyz">Submit<button>
+            <button id="submit_btn">Lock Kar Diya Jaaye</button>
+        </div>
+    </div>
+    <div>
+        <button class="start_btn" id="start_btn">Start Game</button>
+    </div>
+    <div class="winlose" id="winlose">
+        <span class="lose" id="lose"></span>
+        <button class="restart" id="restart">Restart Game</button>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
